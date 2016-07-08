@@ -1,4 +1,4 @@
-drop table gtfs_agency cascade;
+﻿drop table gtfs_agency cascade;
 drop table gtfs_stops cascade;
 drop table gtfs_routes cascade;
 drop table gtfs_calendar cascade;
@@ -34,7 +34,8 @@ create table gtfs_agency (
   agency_timezone    text ,--NOT NULL,
   agency_lang  text,
   agency_phone text,
-  agency_fare_url text
+  agency_fare_url text,
+  agency_email text
 );
 
 --related to gtfs_stops(location_type)
