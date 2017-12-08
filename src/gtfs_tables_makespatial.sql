@@ -1,4 +1,4 @@
-﻿-- Add spatial support for PostGIS databases only
+-- Add spatial support for PostGIS databases only
 
 -- Drop everything first
 DROP TABLE gtfs_shape_geoms CASCADE;
